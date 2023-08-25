@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+}
+.navbar {
+  height: 82px;
+  width: 100%;
+  margin-left: 0%;
+  position: fixed;
+  top: 0;
+  border-bottom: 0.05px solid rgba(255, 255, 255, 0.232);
+  transition: all 0.5s;
+}
+#navbarSupportedContent {
+  transition: all 0.5s;
+}
+.nav-item a:hover{
+color:gray !important;
+}
+.navbar-scrolled {
+  background-color: #1c1c1c;
+}
+.navbar-brand {
+  height: 45px;
+  width: 200px;
+}
+.navbar-brand img {
+  width: 100%;
+  height: 45px;
+}
+.socials {
+  padding-right: 5%;
+}
+.socials i {
+  padding-left: 15%;
+  color: #fff;
+}
+.nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 27%;
+}
+.nav-options li a {
+  color: #fff !important;
+}
+.bg {
+  background-image: url("https://www.camerry.in/images/01.png");
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 15%;
+  background-color: #9c4941;
+  width: 100%;
+  background-position: center;
+}
+
+.section-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  align-items: center;
+  background-color: #9c4941;
+  padding-bottom: 10%;
+}
+
+.image-section img {
+  width: 100%;
+}
+.content-section {
+  padding-right: 4%;
+  padding-left: 3%;
+}
+
+.content-section button {
+  border: 2px solid #bc9e33;
+  color: #bc9e33;
+  background-color: #9c4941;
+  width: 140px;
+  height: 47px;
+}
+.content-section h2 {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .image-section {
+    padding-left: 6%;
+  }
+}
+@media (min-wdth: 778px) and (max-width: 900px) {
+  .image-section {
+    height: 345px;
+    width: 350px;
+  }
+}
+
+.footer {
+  background-color: #1c1c1c;
+  color: #d1bd74;
+  width: 100%;
+  padding-left: 5%;
+}
+
+.footer-section1 {
+  padding-top: 3%;
+  display: flex;
+}
+.getintouch {
+  padding-left: 15%;
+}
+.getintouch h2 {
+  color: #7c682a;
+}
+.contact-us button {
+  color: #bc9e33;
+  border: 2px solid #bc9e33;
+  background-color: #1c1c1c;
+  width: 140px;
+  height: 47px;
+}
+.getintouch p {
+  color: #d1bd74;
+}
+button:hover {
+  background-color: #bc9e33;
+  color: #fff;
+}
+.footer-section2 {
+  display: flex;
+  padding-left: 4%;
+  padding-right: 2%;
+  padding-top: 3%;
+  justify-content: space-evenly;
+}
+.logo {
+  padding-top: 2%;
+  padding-bottom: 10%;
+  width: 200px;
+  height: 35px;
+}
+.logo img {
+  width: 135px;
+  height: 35px;
+}
+.footer-section2 ul {
+  list-style-type: none;
+}
+@media (max-width: 768px) {
+  .bg {
+    min-height: 70vh;
+  }
+}
+@media (max-width: 992px) {
+  .content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-section1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutus {
+    padding-right: 12%;
+  }
+  .aboutus ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .socials i {
+    display: none;
+  }
+}
